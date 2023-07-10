@@ -1,8 +1,8 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import React from "react";
-import { InputScreen } from "./InputScreen";
-import ResultScreen from "./ResultScreen";
+import { InputScreen } from "../InputScreen/InputScreen";
+import ResultScreen from "../ResultScreen/ResultScreen";
 
 const Stack = createStackNavigator();
 
